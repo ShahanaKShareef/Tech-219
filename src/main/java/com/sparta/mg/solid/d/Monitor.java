@@ -1,2 +1,4 @@
-package com.sparta.mg.solid.d;public class Monitor {
+package com.sparta.mg.solid.d;
+
+public class Monitor {
 }

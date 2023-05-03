@@ -1,2 +1,4 @@
-package com.sparta.mg.solid.d;public class App {
+package com.sparta.mg.solid.d;
+
+public class App {
 }
