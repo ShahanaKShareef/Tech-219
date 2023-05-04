@@ -4,9 +4,7 @@ import java.time.LocalDate;
 
 public class Spartan {
     private String name;
-    private String course;
-    private LocalDate startDate;
-    private int numberOfTrainees;
+    private Course course;
 
     public String getName() {
         return name;
@@ -14,30 +12,18 @@ public class Spartan {
 
     public void setName(String name) {
         this.name = name;
-        System.out.println(this.name + " changed to " + name);
     }
 
-    public String getCourse() {
-        return course;
-    }
-
-    public void setCourse(String course) {
+    public Spartan(String name, Course course) {
+        this.name = name;
         this.course = course;
     }
 
-    public LocalDate getStartDate() {
-        return startDate;
+    public Course getCourse() {
+        return course;
     }
 
-    public void setStartDate(LocalDate startDate) {
-        this.startDate = startDate;
-    }
-
-    public int getNumberOfTrainees() {
-        return numberOfTrainees;
-    }
-
-    public void setNumberOfTrainees(int numberOfTrainees) {
-        this.numberOfTrainees = numberOfTrainees;
+    public void setCourse(Course course) {
+        this.course = course;
     }
 }
