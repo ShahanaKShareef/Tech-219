@@ -1,9 +1,9 @@
 package com.sparta.mg.solid.l;
 
-public abstract class FlyingBird {
+public class Bird {
     private String name;
 
-    public FlyingBird(String name) {
+    public Bird(String name) {
         this.name = name;
     }
 

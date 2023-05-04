@@ -2,12 +2,12 @@ package com.sparta.mg.solid.l;
 
 public class App {
     public static void main(String[] args) {
-        Bird eagle = new Eagle("Eagle");
-        Bird falcon = new Falcon("Falcon");
-        Bird ostrich = new Ostrich("Falcon");
-        Bird[] birds = {eagle, falcon};
+        FlyingBird eagle = new Eagle("Eagle");
+        FlyingBird falcon = new Falcon("Falcon");
+        NonFlyingBird ostrich = new Ostrich("Falcon");
+        FlyingBird[] birds = {eagle, falcon};
 
-        for (Bird bird : birds) {
+        for (FlyingBird bird : birds) {
             System.out.println(bird.fly());
         }
     }
