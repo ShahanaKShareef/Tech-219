@@ -1,4 +1,4 @@
 package com.sparta.mg.solid.d;
 
-public class Keyboard {
+public abstract class Keyboard {
 }
